@@ -1,0 +1,10 @@
+git clone <ssh link>
+npm i
+npm install --save -s react react-dom react-scripts web-vitals
+
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+
+    npm start
+
+    npm audit fix --force
